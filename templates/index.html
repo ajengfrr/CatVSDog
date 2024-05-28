@@ -34,7 +34,7 @@
                 <h1 class="text-3xl text-bold">Cat vs Dog</h1>
 
                 {% if uploaded_image %}
-                <img
+                <img alt=""
                     src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
                     class="mt-8 mb-4 h-48 border-8 border-gray-200 rounded-md"
                 />
